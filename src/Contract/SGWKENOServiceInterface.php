@@ -15,7 +15,7 @@ interface SGWKENOServiceInterface {
      * @param string $backUrl
      * @return mixed
      */
-    function gameLaunch(string $opCode, string $account, string $gameCode, string $language, string $backUrl = null);
+    function gameLaunch(string $opCode, string $account, string $gameCode, string $language, string $backUrl = '', string $oddType = '');
 
     /**
      * 遊戲詳情
